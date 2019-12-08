@@ -15,7 +15,7 @@ spring:
     password: root
 mybatis:
   mapper-locations: classpath:com/wzh/mapper/*Mapper.xml
-  type-aliases-package: com.wzh.entity
+  type-aliases-package: com.wzh.ems.entity
 logging:
   level:
     root: info
