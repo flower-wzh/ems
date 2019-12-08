@@ -1,7 +1,8 @@
 server:
   servlet:
     jsp:
-      init-parameters: true
+      init-parameters:
+        development: true
 spring:
   mvc:
     view:
