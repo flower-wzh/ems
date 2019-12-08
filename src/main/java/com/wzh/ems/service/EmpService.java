@@ -1,4 +1,4 @@
-package com.wzh.ems.entity.service;
+package com.wzh.ems.service;
 
 import com.wzh.ems.entity.Emp;
 

@@ -1,4 +1,4 @@
-package com.wzh.ems.entity.dao;
+package com.wzh.ems.dao;
 
 import com.wzh.ems.entity.Emp;
 import tk.mybatis.mapper.additional.idlist.DeleteByIdListMapper;

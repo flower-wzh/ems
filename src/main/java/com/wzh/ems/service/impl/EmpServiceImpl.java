@@ -1,8 +1,8 @@
-package com.wzh.ems.entity.service.impl;
+package com.wzh.ems.service.impl;
 
 import com.wzh.ems.entity.Emp;
-import com.wzh.ems.entity.dao.EmpDao;
-import com.wzh.ems.entity.service.EmpService;
+import com.wzh.ems.dao.EmpDao;
+import com.wzh.ems.service.EmpService;
 import org.apache.ibatis.session.RowBounds;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
