@@ -21,7 +21,7 @@ public class Emp {
     private String empName;
     private Double salary;
     private Integer age;
-    @JsonFormat(pattern = "yyyy-MM-dd")
+    @JsonFormat(timezone = "GMT+8", pattern = "yyyy-MM-dd")
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date birthday;
 }
