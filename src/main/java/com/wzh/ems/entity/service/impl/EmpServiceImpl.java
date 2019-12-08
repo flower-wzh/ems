@@ -17,12 +17,8 @@ import java.util.UUID;
 @Service
 @Transactional
 public class EmpServiceImpl implements EmpService {
-    final EmpDao empDao;
-
     @Autowired
-    public EmpServiceImpl(EmpDao empDao) {
-        this.empDao = empDao;
-    }
+    private EmpDao empDao;
 
     @Override
     public Map<String, Object> addEmp(Emp emp) {
